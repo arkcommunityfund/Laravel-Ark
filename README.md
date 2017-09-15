@@ -7,7 +7,7 @@
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ```bash
-$ composer require faustbrian/laravel-lark
+$ composer require faustbrian/laravel-ark
 ```
 
 ## Configuration

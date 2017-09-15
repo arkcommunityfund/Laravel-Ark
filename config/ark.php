@@ -44,6 +44,7 @@ return [
             'port'    => 'your-mainnet-port',
             'nethash' => 'your-mainnet-nethash',
             'version' => 'your-mainnet-version',
+            'path'    => '/usr/bin',
         ],
 
         'test' => [
@@ -51,6 +52,7 @@ return [
             'port'    => 'your-testnet-port',
             'nethash' => 'your-testnet-nethash',
             'version' => 'your-testnet-version',
+            'path'    => '/usr/bin',
         ],
 
         'dev' => [
@@ -58,6 +60,7 @@ return [
             'port'    => 'your-devnet-port',
             'nethash' => 'your-devnet-nethash',
             'version' => 'your-devnet-version',
+            'path'    => '/usr/bin',
         ],
 
     ],

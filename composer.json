@@ -10,9 +10,8 @@
     }],
     "require": {
         "php": "^7.0",
-        "faustbrian/ark-php-client": "^1.0@dev",
-        "graham-campbell/manager": "^2.4",
-        "illuminate/support": "5.3.* || 5.4.* || 5.5.*"
+        "faustbrian/ark-php-client": "^0.1",
+        "graham-campbell/manager": "^3.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.3",
@@ -45,7 +44,5 @@
                 "Lark": "BrianFaust\\Lark\\Facades\\Lark"
             }
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }

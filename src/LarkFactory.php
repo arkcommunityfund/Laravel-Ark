@@ -43,7 +43,7 @@ class LarkFactory
      */
     protected function getConfig(array $config): array
     {
-        $keys = ['ip', 'port', 'nethash', 'version'];
+        $keys = ['ip', 'port', 'nethash', 'version', 'path'];
 
         foreach ($keys as $key) {
             if (! array_key_exists($key, $config)) {
@@ -51,7 +51,7 @@ class LarkFactory
             }
         }
 
-        return array_only($config, ['ip', 'port', 'nethash', 'version']);
+        return array_only($config, ['ip', 'port', 'nethash', 'version', 'path']);
     }
 
     /**
@@ -63,6 +63,6 @@ class LarkFactory
      */
     protected function getClient(array $config): Client
     {
-        return new Client($config['ip'], $config['port'], $config['nethash'], $config['version']);
+        return new Client($config['ip'], $config['port'], $config['nethash'], $config['version'], $config['path']);
     }
 }
